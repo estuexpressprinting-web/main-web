@@ -31,7 +31,7 @@ body {
 .logo img {
   height: 44px;          /* ukuran ideal desktop */
   width: auto;
-  max-width: 180px;      /* cegah logo kepanjangan */
+  max-width: 180px;      /* cegah logo kepanjangan */ 
   object-fit: contain;
 }
 .nav-wrap {
