@@ -40,10 +40,6 @@ body {
   align-items: center;
 }
 
-.logo img {
-  height: 42px;
-}
-
 .navbar nav a {
   color: #fff;
   margin-left: 20px;
