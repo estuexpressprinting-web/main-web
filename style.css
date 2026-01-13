@@ -23,6 +23,17 @@ body {
   padding: 15px 0;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 44px;          /* ukuran ideal desktop */
+  width: auto;
+  max-width: 180px;      /* cegah logo kepanjangan */
+  object-fit: contain;
+}
 .nav-wrap {
   display: flex;
   justify-content: space-between;
@@ -149,4 +160,11 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    height: 36px;        /* lebih kecil di mobile */
+    max-width: 140px;
+  }
 }
