@@ -210,8 +210,15 @@ img.logo {
 }
 
 @media (max-width: 768px) {
+  .nav-wrap {
+    height: 64px;
+  }
+
   .logo img {
-    height: 36px;        /* lebih kecil di mobile */
-    max-width: 140px;
+    height: 36px;
+  }
+
+  .nav-menu {
+    gap: 18px;
   }
 }
