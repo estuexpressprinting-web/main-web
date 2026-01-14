@@ -24,13 +24,15 @@ body {
   top: 0;
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0,0,0,.06);
+  height: 64px;                 /* tinggi navbar konsisten */
+  display: flex;
+  align-items: center;
 }
 
 .nav-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
 }
 
 /* LOGO */
