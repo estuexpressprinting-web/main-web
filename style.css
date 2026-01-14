@@ -42,9 +42,9 @@ body {
 }
 
 .logo img {
-  height: 42px;          /* ukuran ideal desktop */
-  width: auto;
-  max-width: 160px;      /* cegah logo kepanjangan */ 
+  height: 32px !important;
+  max-width: 120px !important;
+  width: auto !important;      
   object-fit: contain;
 }
 
