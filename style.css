@@ -214,9 +214,10 @@ body {
   .nav-wrap {
     height: 64px;
   }
-
-  img.logo {
-    height: 36px;
+  
+  .logo img {
+    height: 28px;
+    max-width: 110px;
   }
 
   .nav-menu {
