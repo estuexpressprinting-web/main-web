@@ -37,9 +37,6 @@ body {
 .logo {
   display: flex;
   align-items: center;
-}
-
-img.logo {
   height: 42px;          /* ukuran ideal desktop */
   width: auto;
   max-width: 160px;      /* cegah logo kepanjangan */ 
